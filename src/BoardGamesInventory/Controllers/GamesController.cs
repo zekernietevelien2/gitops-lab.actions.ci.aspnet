@@ -33,7 +33,7 @@ namespace BoardGamesInventory.Controllers
       {
         Id = game.Id,
         Name = game.Name,
-        Price = game.Price.Amount,
+        // Price = game.Price.Amount,
         Publisher = game.Publisher.Name
       };
       return View(model: vm);
